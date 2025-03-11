@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #09250123;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.699);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(212, 11, 11, 0.1);
+}
+
+#quote {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #d9d2db;
+    margin-bottom: 10px;
+}
+
+#results {
+    margin-top: 20px;
+}
